@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: GitHub Pipeline
 on: [push]
 jobs:
   Lint:
@@ -6,7 +6,13 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: Check linting
         run: make lint
+  Test:
+    needs: Lint
+    runs-on: self-hosted
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Testing
+        run: make test
