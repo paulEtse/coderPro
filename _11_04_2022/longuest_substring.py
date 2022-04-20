@@ -10,7 +10,3 @@ class Solution:
                     max_length = i - current_str_start
                 current_str_start = s[0:i].rindex(current_char) + 1
         return min(max_length, len(s))
-
-
-print(Solution().lengthOfLongestSubstring("abrkaabcdefghijjxxx"))
-# 10
