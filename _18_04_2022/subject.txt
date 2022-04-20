@@ -1,0 +1,26 @@
+Hi, here's your problem today. This problem was recently asked by Facebook:
+
+Given a list of numbers, where every number shows up twice except for one number, find that one number.
+
+Example:
+Input: [4, 3, 2, 4, 1, 3, 2]
+Output: 1
+Here's the function signature:
+
+def singleNumber(nums):
+
+# Fill this in.
+
+print singleNumber([4, 3, 2, 4, 1, 3, 2])
+
+# 1
+
+Challenge: Find a way to do this using O(1) memory.
+
+Upgrade to PRO for in-depth solutions with time-space complexity analysis.
+
+» Ready to fast-track your career? Join the premiere tech interview training program Tech Interview Pro.
+» For more, join me at CoderPro for 100+ whiteboard coding sessions: https://coderpro.com/
+
+Have a great day!
+Daily Interview Pro
