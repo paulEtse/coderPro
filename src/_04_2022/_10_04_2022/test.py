@@ -1,6 +1,6 @@
 import unittest
 
-from _10_04_2022.linked_list import ListNode, Solution
+from src._04_2022._10_04_2022.linked_list import ListNode, Solution
 
 
 class Test_Solution(unittest.TestCase):

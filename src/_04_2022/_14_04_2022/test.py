@@ -1,6 +1,6 @@
 import unittest
 
-from _14_04_2022.first_last_index import Solution
+from src._04_2022._14_04_2022.first_last_index import Solution
 
 
 class Test_Solution(unittest.TestCase):

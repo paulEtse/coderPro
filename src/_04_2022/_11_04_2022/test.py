@@ -1,6 +1,6 @@
 import unittest
 
-from _11_04_2022.longuest_substring import Solution
+from src._04_2022._11_04_2022.longuest_substring import Solution
 
 
 class TestSolution(unittest.TestCase):

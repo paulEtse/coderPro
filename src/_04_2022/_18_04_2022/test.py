@@ -1,6 +1,9 @@
 import unittest
 
-from _18_04_2022.single_number import single_number, single_number__o_n_space
+from src._04_2022._18_04_2022.single_number import (
+    single_number,
+    single_number__o_n_space,
+)
 
 
 class TestSolution(unittest.TestCase):

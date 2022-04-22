@@ -1,6 +1,6 @@
 import unittest
 
-from _19_04_2022.non_decreasing import check
+from src._04_2022._19_04_2022.non_decreasing import check
 
 
 class TestSolution(unittest.TestCase):
