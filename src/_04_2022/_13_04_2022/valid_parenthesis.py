@@ -1,4 +1,4 @@
-from utils.stack import Stack
+from utils.stack.stack import Stack
 
 
 class Solution:
