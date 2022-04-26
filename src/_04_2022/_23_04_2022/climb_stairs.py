@@ -10,7 +10,7 @@ def staircase(n):
     n_1 = 1
     n_2 = 2
 
-    for i in range(2, n):
+    for _ in range(2, n):
         aux = n_2
         n_2 = n_2 + n_1
         n_1 = aux
