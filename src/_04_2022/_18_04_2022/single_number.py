@@ -10,6 +10,6 @@ def single_number(nums):
 
 def single_number__o_n_space(nums):
     for i in range(len(nums)):
-        if nums[i] not in nums[: i] + nums[i + 1:]:
+        if nums[i] not in nums[:i] + nums[i + 1 :]:
             return nums[i]
     raise Exception("Not found")

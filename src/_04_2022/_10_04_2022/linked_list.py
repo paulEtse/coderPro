@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
@@ -38,6 +39,4 @@ class ListNode(object):
 
 class Solution:
     def addTwoNumbers(self, l1, l2, c=0):
-        return ListNode.node_from_value(
-            l1.value_from_node() + l2.value_from_node()
-        )
+        return ListNode.node_from_value(l1.value_from_node() + l2.value_from_node())

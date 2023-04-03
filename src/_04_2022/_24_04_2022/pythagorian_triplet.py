@@ -1,7 +1,7 @@
 def pythagoreanTriplets(nums):
     nums_square = []
     for n in nums:
-        nums_square.append(n ** 2)
+        nums_square.append(n**2)
     nums_square.sort()
 
     for i in range(len(nums)):
