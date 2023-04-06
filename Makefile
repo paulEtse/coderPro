@@ -6,3 +6,6 @@ test:
 
 lint-fix:
 	python3 -m black .
+
+typecheck:
+	python3 -m mypy .

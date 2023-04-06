@@ -5,6 +5,7 @@ class ExamRoom(object):
     """
     https://leetcode.com/problems/exam-room/description/
     """
+
     def __init__(self, n):
         """
         :type n: int
